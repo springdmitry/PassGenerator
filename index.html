@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Generate a</h1>
+        <h1 id="greeting-bottom">random password</h1>
+        <p id = "attencion">Never use an insecure password again.</p>
+        <div>
+        <button id="genButton">Generate passwords</button>
+        
+        <input id="symb" type="checkbox"> <span>Symbols on/off</span></input>
+        <input id="num" type="checkbox" value="true"> <span>Numbers on/off</span></input>
+        </div>
+        <p id="line"></p>
+        <div id="password-els">
+            
+            <div id="tooltip1">
+            <span class="tooltiptext">Click to copy</span>
+            <p id="pass1"></p>
+            </div>
+            <div id="tooltip2">
+            <span class="tooltiptext">Click to copy</span>
+            <p id="pass2"></p>
+            </div>
+        </div>    
+        <script src="index.js"></script>
+    </body>
+</html>
