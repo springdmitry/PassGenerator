@@ -73,7 +73,7 @@ pass1El.addEventListener("copy", function(event) {
   event.preventDefault();
   if (event.clipboardData) {
     event.clipboardData.setData("text/plain", pass1El.textContent);
-    console.log(event.clipboardData.getData("text"))
+    // console.log(event.clipboardData.getData("text"))
   }
 })
 
@@ -85,7 +85,7 @@ pass2El.addEventListener("copy", function(event) {
   event.preventDefault();
   if (event.clipboardData) {
     event.clipboardData.setData("text/plain", pass2El.textContent);
-    console.log(event.clipboardData.getData("text"))
+    // console.log(event.clipboardData.getData("text"))
   }
 })   
 
